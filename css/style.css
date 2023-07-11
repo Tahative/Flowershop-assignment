@@ -2,31 +2,33 @@
     margin: 0;
     padding: 0;
 }
+
 /* This is banner section */
 .banner-container {
     display: flex;
     flex-direction: row;
-    justify-content: spac;
-    padding-top: 30px;    
+    justify-content: space-evenly;
+    padding-top: 30px;
     background-color: #e552721a;
     background-image: cover;
     padding-left: 80px;
     padding-top: 50px;
-   
+
 }
 
 .title {
     color: #272727;
     font-family: Lato;
     font-size: 50px;
-    
+
     font-weight: 900 bold;
     line-height: normal;
     padding-top: 110px;
-    
+
 
 }
-.description{
+
+.description {
     color: rgba(39, 39, 39, 0.60);
     font-family: Lato;
     font-size: 15px;
@@ -35,11 +37,11 @@
     line-height: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    
-    
+
+
 }
 
-.btn{
+.btn {
     color: #FFF;
     font-family: Lato;
     font-size: 20px;
@@ -47,21 +49,24 @@
     font-weight: 700;
     line-height: normal;
     border-radius: 8px;
-    border:none;
+    border: none;
     background: #E55473;
-    padding: 10px 20px ;
+    padding: 10px 20px;
 }
+
 .banner-photo {
     justify-content: center;
-    align-items:cover;
-    padding-top: 30px;
+    align-items: cover;
+    padding-top: 80px;
+    padding-bottom: 0;
 
-    
+
 }
+
 /* This is Featured section */
 
 
-.second-title{
+.second-title {
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -69,10 +74,11 @@
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    padding-top: 120px ;
+    padding-top: 120px;
     padding-bottom: 20px;
 }
-.sub-title{
+
+.sub-title {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
@@ -80,22 +86,69 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    padding-bottom: 30px;
 }
 
-.featured-container{
+.featured-container {
 
     display: flex;
     justify-content: space-evenly;
-    padding-right: 20px;
-    padding-left: 20px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
     padding-inline: 50px;
-    
+
 }
 
-.caption{
-    align-content: center;
+.text-container {
+    display: flex;
+    justify-content: space-evenly;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
-.pink{
-    background-color: ;
+
+.flower-container {
+    justify-content: space-evenly;
+    background-size: cover;
+    gap: 20px;
+}
+
+.pink {
+    background-color: #A7216226;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+}
+.pink-photo{
+    
+    padding-top: 73px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+.mixed{
+    background-color: #0597A026;
+    border-radius: 300px 300px 0px 0px;
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+
+}
+.mixed-photo{
+    
+    margin: 117px 47px 51px 40px;
+}
+.yellow{
+
+}
+
+.yellow-photo{
 
 }
