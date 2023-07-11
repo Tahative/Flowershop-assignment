@@ -222,6 +222,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+
 }
 
 .text-btn {
@@ -231,7 +232,7 @@
 }
 
 
-span {
+#off {
     color: #E55473;
 }
 
@@ -245,18 +246,130 @@ span {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin-top: 100px;
-    margin-bottom: 25px ;
+    /* margin-top: 100px; */
+
 }
 
-.instagram-title {
+.instagram-container {
     color: rgba(39, 39, 39, 0.60);
-    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 335px;
+    height: 385px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* margin-top: 20px;
+} */
+
+.images {
+    display: flex;
+    margin-bottom: 50px;
+
+    justify-content: space-around;
+    /* margin: 128px 240px; */
+}
+
+/* This is deals section */
+
+.deals-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deals-sub {
+    color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+}
 
+
+.subscribe-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    background-image: url(/flower-asset/sub-bg.png);
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+
+}
+
+.mail {
+
+    align-items: center;
+    text-align: left;
+    color: rgba(39, 39, 39, 0.60);
+    row-gap: 16px;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: normal;
+    width: 500px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-left: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+/* This is footer section */
+
+.footer-container {
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 30px;
+    padding: 118px 263px 200px 260px;
+}
+
+.foot-sub {
+
+    width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sec {
+    color: #FFFFFF;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
