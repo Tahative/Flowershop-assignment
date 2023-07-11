@@ -3,29 +3,24 @@
     padding: 0;
 }
 
-/* This is banner section */
 .banner-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
     background-color: #e552721a;
     background-image: cover;
     padding-left: 80px;
     padding-top: 50px;
-
 }
 
-.title {
+.banner-title {
     color: #272727;
     font-family: Lato;
-    font-size: 50px;
-
-    font-weight: 900 bold;
-    line-height: normal;
-    padding-top: 110px;
-
-
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .description {
@@ -37,30 +32,22 @@
     line-height: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-
-
 }
 
 .btn {
+    border: none;
     color: #FFF;
     font-family: Lato;
-    font-size: 20px;
-    font-style: normal;
+    font-size: 12px;
     font-weight: 700;
-    line-height: normal;
-    border-radius: 8px;
-    border: none;
-    background: #E55473;
+    border-radius: 5px;
     padding: 10px 20px;
+    background: #E55473;
 }
 
 .banner-photo {
-    justify-content: center;
-    align-items: cover;
-    padding-top: 80px;
-    padding-bottom: 0;
-
-
+    width: 635px;
+    height: 800px;
 }
 
 /* This is Featured section */
@@ -78,6 +65,12 @@
     padding-bottom: 20px;
 }
 
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .sub-title {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -90,56 +83,43 @@
 }
 
 .featured-container {
-
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     /* padding-right: 20px;
     padding-left: 20px; */
-    padding-inline: 30px;
-    /* gap: 30px; */
+    gap: 24px;
+    margin: 50px;
 }
 
-.text-container {
-    display: flex;
-    justify-content: space-evenly;
+.primary-text {
     color: #272727;
-    text-align: center;
     font-family: Lato;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
-}
-
-.first{
-    padding-left: 20px;
+    margin-top: 32px;
 }
 
 
-.flower-container {
-    display: flex;
-    justify-content: space-evenly;
-    background-size: cover;
-    gap: 20px;
-}
 
 .pink {
     background-color: #A7216226;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
     width: 400px;
     height: 500px;
-    flex-shrink: 0;
     box-shadow: 10px;
     box-shadow: gray;
 }
 
-.pink-photo {
 
-    padding-top: 72px;
-    padding-left: 40px;
-    padding-right: 30px;
+
+.pink-photo {
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .mixed {
@@ -147,13 +127,12 @@
     border-radius: 300px 300px 0px 0px;
     width: 400px;
     height: 500px;
-    flex-shrink: 0;
-
 }
 
 .mixed-photo {
-
-    margin: 117px 47px 51px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .yellow {
@@ -167,11 +146,79 @@
 }
 
 .yellow-photo {
+    display: flex;
+    justify-content: center;
+    align-items: end;
 
-    width: 314px;
-    height: 471px;
-    flex-shrink: 0;
-    margin-top: 29px;
-    margin-left: 40px;
-    padding-right: 60px;
+}
+
+/* this is service section */
+
+
+.service-container {
+
+    display: flex;
+
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* text-align: center; */
+    gap: 100px;
+    width: 1500px;
+    height: 320px;
+    /* margin: 60px; */
+    text-align: center;
+    margin: 108px 180px;
+
+
+
+    /* border-left: 240px; */
+
+
+
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* this is signup section */
+
+
+.signup-container {
+    display: flex;
+    /* width: 594px; */
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    width: 1360px;
+    height: 620px;
+}
+
+.signup-text {
+    color: #272727;
+    font-family: Lato;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.signup-subtxt {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
