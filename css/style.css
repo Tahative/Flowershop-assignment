@@ -60,7 +60,29 @@
 }
 /* This is Featured section */
 
-.featured{
+
+.second-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 120px ;
+    padding-bottom: 20px;
+}
+.sub-title{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.featured-container{
 
     display: flex;
     justify-content: space-evenly;
